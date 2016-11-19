@@ -26,7 +26,7 @@ module ActiveAdmin
             f.filter attribute, opts.except(:if, :unless)
           end
 
-          clear_filter = url_for(params.except(:q, :page, :commit,:utf8))
+          clear_filter = url_for(params.except(:q, :page, :commit,:utf8).permit!)
 
           buttons = content_tag :div, class: "actions" do
             f.submit(I18n.t('active_admin.filters.buttons.filter'), class: 'btn btn-success btn-flat') +
