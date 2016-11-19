@@ -22,8 +22,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
 
-  spec.add_dependency "bootstrap-kaminari-views"
-  spec.add_dependency "quiet_assets"
   spec.add_dependency "awesome_print"
   spec.add_dependency "formtastic-bootstrap"
 end
