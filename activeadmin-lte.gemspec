@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "awesome_print"
   spec.add_dependency "formtastic-bootstrap"
+  spec.add_dependency "tinymce-rails"
 end
