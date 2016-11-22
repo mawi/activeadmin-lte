@@ -747,7 +747,7 @@ function _init() {
 
 $(document).ready(function() {
   tinymce.init({
-    selector: 'textarea',
+    selector: 'textarea.tinymce',
     theme: 'modern',
     plugins: [
       'advlist autolink lists link image charmap print preview hr anchor pagebreak',
